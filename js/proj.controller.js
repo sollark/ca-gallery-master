@@ -55,6 +55,12 @@ function renderModal() {
 
     const $img = $(el).find('img');
     $img.prop('src', projs[index].projImgBig);
+
+    const $desc = $(el).find('.item-desc');
+    $desc.html(projs[index].fullDesc);
+
+    console.log(projs[index].fullDesc);
+    console.log($(el).find('.item-desc'));
   });
 }
 /* 
