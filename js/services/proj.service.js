@@ -27,6 +27,19 @@ const gProjList = [
     publishedAt: 1672092000000,
     labels: ['javascript', 'css'],
   },
+  {
+    id: 'balloons',
+    name: 'Balloons',
+    title: 'Balloon Game',
+    projImgSmall: 'img/portfolio/balloons-thumbnail.png',
+    projImgBig: 'img/portfolio/balloons-full.png',
+    desc: 'Test your reaction',
+    fullDesc:
+      "If you're looking for a fun, calorie-free time-waster, look no further than Balloons - the latest and greatest in balloon popping technology. Blast as many balloons as you can. You're sure to be entertained for hours on end.",
+    url: 'https://sollark.github.io/balloons/',
+    publishedAt: 1670305568480,
+    labels: ['javascript', 'css'],
+  },
 ];
 
 const RANDOM_PROJ_IMG = 'https://picsum.photos/200/300';

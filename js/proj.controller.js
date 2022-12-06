@@ -59,8 +59,8 @@ function renderModal() {
     const $desc = $(el).find('.item-desc');
     $desc.html(projs[index].fullDesc);
 
-    console.log(projs[index].fullDesc);
-    console.log($(el).find('.item-desc'));
+    // const $desc = $(el).find('.item-desc');
+    // $desc.html(projs[index].fullDesc);
   });
 }
 /* 
